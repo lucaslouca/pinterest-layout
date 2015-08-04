@@ -12,7 +12,7 @@ Include the neccesary stylesheet file:
 
 Include a simple div to hold your datepicker:
 ```
-<div id="container">
+<div id="mosaic-container">
 ```
 
 ### Demo
