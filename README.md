@@ -28,7 +28,7 @@ Include the neccesary stylesheet  and JavaScript file:
 <script type="text/javascript" src="mosaic.js"></script>
 ```
 
-Include a simple div to hold your datepicker:
+Include a simple div to hold your the mosaic:
 ```
 <div id="mosaic-container"></div>
 ```
@@ -40,7 +40,7 @@ Initialise Mosaic:
 </script>
 ```
 
-## Public methods
+### Public methods
 
 > `addImage(path)`
 
