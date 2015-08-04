@@ -16,7 +16,7 @@ Include a simple div to hold your datepicker:
 ```
 
 ### Demo
-<a href="http://lucaslouca.github.io/pinterest-layout/" target="_blank">Demo Example 1</a>
+<a href="http://lucaslouca.github.io/pinterest-layout/example-1/" target="_blank">Demo Example 1</a>
 
 ## Example 2 & 3: JavaScript
 <img src="https://cloud.githubusercontent.com/assets/10542894/9069706/17d02658-3aeb-11e5-95f8-2fa58ac88527.gif" width="450"/>
@@ -51,6 +51,6 @@ Initialise Mosaic:
 >path of image to add. 
 
 ### Demo
-<a href="http://lucaslouca.github.io/pinterest-layout/" target="_blank">Demo Example 2</a>
+<a href="http://lucaslouca.github.io/pinterest-layout/example-2/" target="_blank">Demo Example 2</a>
 
-<a href="http://lucaslouca.github.io/pinterest-layout/" target="_blank">Demo Example 3</a>
+<a href="http://lucaslouca.github.io/pinterest-layout/example-3/" target="_blank">Demo Example 3</a>
