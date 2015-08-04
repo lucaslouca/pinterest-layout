@@ -2,7 +2,10 @@
 Examples illustrating a <a href="https://www.pinterest.com" target="_blank">Pinterest</a> like layout.
 
 ## Example 1: CSS Only
-<img src="https://cloud.githubusercontent.com/assets/10542894/9069691/0ed5271a-3aeb-11e5-8b78-3c4702394f12.gif" width="450"/>
+
+| Example 1 |
+|--------------|
+| <img src="https://cloud.githubusercontent.com/assets/10542894/9069691/0ed5271a-3aeb-11e5-8b78-3c4702394f12.gif" width="450"/> |
 
 ### How to use
 Include the neccesary Stylesheet file:
@@ -19,7 +22,14 @@ Include a simple div to hold your datepicker:
 <a href="http://lucaslouca.github.io/pinterest-layout/example-1/" target="_blank">Demo Example 1</a>
 
 ## Example 2 & 3: JavaScript
-<img src="https://cloud.githubusercontent.com/assets/10542894/9069706/17d02658-3aeb-11e5-95f8-2fa58ac88527.gif" width="450"/>
+
+| Example 2 |
+|--------------|
+| <img src="https://cloud.githubusercontent.com/assets/10542894/9069706/17d02658-3aeb-11e5-95f8-2fa58ac88527.gif" width="450"/> |
+
+| Example 3 |
+|--------------|
+| <img src="https://cloud.githubusercontent.com/assets/10542894/9070196/63ce26ec-3aee-11e5-86e6-50d13e2d9027.gif" width="450"/> |
 
 ### How to use
 Include the neccesary Stylesheet and JavaScript file:
