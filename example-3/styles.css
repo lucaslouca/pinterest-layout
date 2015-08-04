@@ -1,0 +1,344 @@
+html {
+	height:100%;
+    font-family: "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; 
+    font-weight:normal; 
+    font-stretch:normal;
+	font-size: 16px;
+	padding:0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	text-rendering: optimizeLegibility;	
+	width:100%;
+	height:100%;
+	background-color: #f6f6f6;
+}
+
+img, a {
+    outline:none;
+    border:0;
+}
+
+header {
+	width: 800px;
+	height: 44px;
+	padding: 10px;
+	position: fixed;
+    z-index: 1000;
+    left:50%;
+    margin-left:-400px;
+	background:#f2f2f2;
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+    display: table;
+    top:0;
+}
+
+#container {
+	position: relative;
+	-webkit-overflow-scrolling: touch;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto; /*100% */
+	min-height:100%;
+	padding-bottom: 200px;
+	background: #f6f6f6;
+	border-radius: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	
+	-moz-box-shadow: -3px 0 6px darken(#556270, 5%);
+	-webkit-box-shadow: -3px 0 6px darken(#556270, 5%);
+	box-shadow: -3px 0 6px darken(#556270, 5%);
+
+	-moz-transition: all 300ms;
+	-webkit-transition: all 300ms;
+	transition: all 300ms;
+    
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#menu-trigger {
+	display: none;
+	position: fixed;
+	top: 10px;
+	left:0;
+	margin-left: 10px;
+	width: 36px;
+	height: 36px;
+	background: red;
+	cursor: pointer;
+	border-radius: 5px;
+    background:#9a9a9a url(images/mobile-nav.svg) no-repeat center center;
+	-moz-transition: all 300ms;
+	-webkit-transition: all 300ms;
+	transition: all 300ms;
+	z-index:9999;
+}
+
+body.menu-active #container { 
+	left: 200px;
+    -moz-box-shadow: -3px 0 6px #000000;
+	-webkit-box-shadow: -3px 0 6px #000000;
+	box-shadow: -3px 0 6px #000000;
+}
+body.menu-active #container #menu-trigger { 
+	left: 200px; 
+}
+
+input[type="text"] {
+	border: 1px #c2ebff solid;
+	-webkit-appearance: none;
+	height: 2em;
+	padding-left:0.3em;
+	margin-left: 1em;
+	display : inline-flex;
+}
+
+/************************************* DESKTOP NAV ************************************/
+nav {
+	vertical-align: middle;
+	display: table-cell;
+	text-align: right;
+}
+
+nav ul { 
+	list-style-type: none; 
+	margin: 0;
+	padding: 0 2em 0 0;
+}
+
+nav ul li { 
+	display: inline; 
+}
+
+nav ul li a { 
+	padding-left: 1em;
+	color: #29bbff;
+	font-weight: 100;
+    text-decoration: none;
+}
+
+header > a {
+	padding-left: 1em;
+	color: #29bbff;
+	font-weight: 100;
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+header a strong {
+	font-weight: 800;
+}
+
+header ul li > a:hover {
+	color: #300;
+}
+
+
+/************************************* Drop Down ************************************/
+/********************** AVATAR MENU ELEMENTS **************************/
+#bubble-menu, #bubble-menu-2 {
+	margin-left: 1em;
+	color: #29bbff;
+	font-weight: 100;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#bubble-menu:hover, #bubble-menu-2:hover {
+	color: #300;
+	cursor: pointer;
+}
+
+#bubble-menu:focus, #bubble-menu-2:focus {
+    outline:none;
+}
+
+#bubble-menu:focus .bubble-menu-content, #bubble-menu:hover .bubble-menu-content,
+#bubble-menu-2:focus .bubble-menu-content, #bubble-menu-2:hover .bubble-menu-content {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.bubble-menu-content {
+    position: absolute;
+    z-index: 1000;
+
+    /* use opacity to fake immediate toggle */
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.5s;
+    max-width: 55px;
+	height: auto;
+	padding: 5px;
+	background: #e3e3e3;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.bubble-menu-content:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 5px 5px;
+    border-color: #e3e3e3 transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    top: -5px;
+    left: calc(50% - 5px);
+}
+
+/* The avatar icons the user can choose (AVATAR MENU) */
+.pic-menu-icon {
+	position: relative;
+	width:50px;
+	height:50px;
+	margin:1px;
+	display:inline-block;
+	border:1px #cecece solid;
+	background-color: #FFFFFF;
+	float:left;
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size:contain;
+	cursor: pointer;
+}
+
+.pic-menu-icon:hover {
+	border:1px #80c4ff solid;
+}
+
+#pic-menu:focus .pic-menu-icon.selected:after {
+	visibility: visible;
+	opacity: 1.0;
+}
+
+#avatar-1{
+	background-image: url(images/dropdown1/1.png); 	
+}
+
+#avatar-2{
+	background-image: url(images/dropdown1/2.png); 	
+}
+
+#avatar-3{
+	background-image: url(images/dropdown1/3.png); 	
+}
+
+#avatar-4{
+	background-image: url(images/dropdown1/4.png); 	
+}
+
+#avatar-5{
+	background-image: url(images/dropdown1/5.png); 	
+}
+
+#avatar-6{
+	background-image: url(images/dropdown1/6.png); 	
+}
+
+@media (min-width: 900px) {
+	body.menu-active #menu-trigger {
+		left:0;
+	}
+	
+	body.menu-active #container {
+		left: 0;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	#menu-trigger {
+		display: block;
+	}
+	
+	#container {
+		position: fixed;
+		height: 100%;
+		overflow: scroll;
+		padding-bottom: 0;
+	}
+    
+    header ul li {
+        display: block;
+        text-align: left;
+        padding:0 0 0.3em 0;
+    }
+
+    nav ul li a:hover, #bubble-menu:hover, #bubble-menu-2:hover {
+        color:#f7a200;
+    }
+    
+    body.menu-active #my-header {
+       left: 0px;
+       -moz-transition: left 300ms;
+	   -webkit-transition: left 300ms;
+	   transition: left 300ms;
+    }
+    
+    #my-header {
+	    background-color: transparent;
+        position:absolute;
+        width: 210px;
+        left: -210px;
+        margin:0;
+        padding:1em 0 0 0;  
+    }
+
+    header > a {
+        display: block;
+    }
+
+    nav {
+        display:block;
+        text-align: center;
+    }
+    
+    body {
+	    background:#f5f4f1 url(images/noise-dark.gif) repeat 0 0;
+    }
+    
+    #bubble-menu, #bubble-menu-2 {
+	    height:1em;
+	    overflow: hidden;
+	    -moz-transition: height 300ms;
+		-webkit-transition: height 300ms;
+		transition: height 300ms;
+    }
+    
+    #bubble-menu .bubble-menu-content, #bubble-menu-2 .bubble-menu-content {
+	    position: relative;
+	    opacity: 1;
+	    visibility: visible;
+	    height: 0;
+	    background-color: transparent;
+	    border-color: transparent;
+	}
+	
+	.bubble-menu-content:after {
+	    content: none;
+	}
+
+    #bubble-menu.menu-active, #bubble-menu-2.menu-active  {
+	    height: 190px;
+	}
+    
+}

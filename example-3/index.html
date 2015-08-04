@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>	
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">	
+		<meta name="author" content="Lucas Louca">	
+		<script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="mosaic.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css" media="screen">
+		<title>Example 3</title>
+	</head>
+	<body>
+        <header id="my-header" role="banner">
+            <a href="#"><strong>Responsive Design</strong></a>
+            <nav>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">ipsum</a></li>
+                    <li><a href="#">dolor</a></li>
+                    <li>
+                        <div tabindex="0" id="bubble-menu">
+                            dropdown
+                            <div class="bubble-menu-content">
+                                <div id="avatar-1" class="pic-menu-icon selected"></div>
+                                <div id="avatar-2" class="pic-menu-icon"></div>
+                                <div id="avatar-3" class="pic-menu-icon"></div>
+                            </div>  
+                        </div>
+                    </li>
+                    <li>
+                        <div tabindex="0" id="bubble-menu-2">
+                            dropdown2
+                            <div class="bubble-menu-content">
+                                <div id="avatar-4" class="pic-menu-icon"></div>
+                                <div id="avatar-5" class="pic-menu-icon"></div>
+                                <div id="avatar-6" class="pic-menu-icon"></div>
+                            </div>  
+                        </div>
+                    </li>
+                    <li>
+                    	<input type="text" placeholder="Search"/>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main id="container">
+            <div id="menu-trigger"></div>
+            <div id="mosaic-container"></div>
+        </main>
+                            
+	
+        <script>
+            document.querySelector('#menu-trigger').addEventListener('click', toggleMenu );
+            document.querySelector('#bubble-menu').addEventListener('click', toggleBubbleMenu1 );  
+            document.querySelector('#bubble-menu-2').addEventListener('click', toggleBubbleMenu2 );
+
+            var mosaic = new JSMosaic('mosaic-container',['images/1.jpg','images/2.jpg','images/3.jpg','images/4.jpg','images/5.jpg','images/6.jpg', 'images/7.jpg','images/8.jpg','images/9.jpg','images/10.jpg','images/11.jpg','images/12.jpg']);
+        </script>
+    </body>
+</html>	
