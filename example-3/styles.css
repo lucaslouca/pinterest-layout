@@ -103,7 +103,6 @@ input[type="text"] {
 	height: 2em;
 	padding-left:0.3em;
 	margin-left: 1em;
-	display : inline-flex;
 }
 
 /************************************* DESKTOP NAV ************************************/
