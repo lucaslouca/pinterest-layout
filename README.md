@@ -52,4 +52,5 @@ Initialise Mosaic:
 
 ### Demo
 <a href="http://lucaslouca.github.io/pinterest-layout/" target="_blank">Demo Example 2</a>
+
 <a href="http://lucaslouca.github.io/pinterest-layout/" target="_blank">Demo Example 3</a>
