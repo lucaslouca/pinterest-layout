@@ -31,6 +31,10 @@ Include a simple div to hold your datepicker:
 |--------------|
 | <img src="https://cloud.githubusercontent.com/assets/10542894/9070196/63ce26ec-3aee-11e5-86e6-50d13e2d9027.gif" width="450"/> |
 
+### How it works
+The images are positioned dynamically by iterating through them and placing them at the bottom of whichever column has the shortest height at the moment. The column's height is then increased by the image's height (and some margins).
+
+
 ### How to use
 Include the neccesary Stylesheet and JavaScript file:
 ```html
