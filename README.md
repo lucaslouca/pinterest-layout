@@ -1,5 +1,5 @@
 # pinterest-layout
-Examples illustrating a Pinterest like layout.
+Examples illustrating a <a href="https://www.pinterest.com" target="_blank">Pinterest</a> like layout.
 
 ## Example 1: CSS Only
 <img src="https://cloud.githubusercontent.com/assets/10542894/9069691/0ed5271a-3aeb-11e5-8b78-3c4702394f12.gif" width="450"/>
