@@ -13,7 +13,7 @@ Include the neccesary Stylesheet file:
 <link rel="stylesheet" type="text/css" href="styles.css" media="screen">
 ```
 
-Include a simple div to hold your datepicker:
+Include a simple div to hold the mosaic:
 ```html
 <div id="mosaic-container">
 ```
