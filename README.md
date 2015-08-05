@@ -22,6 +22,9 @@ Include a simple div to hold the mosaic:
 <a href="http://lucaslouca.github.io/pinterest-layout/example-1/" target="_blank">Demo Example 1</a>
 
 ## Example 2 & 3: JavaScript
+Example 2 & 3 are implement a similar Pinterest layout as Example 1, but instead of using a pure CSS solution, Example 2 & 3 make use of pure JavaScript. jQuery is **not** required.
+
+Example 3 also includes a different header and provides a responsive navigation. That is, when the view port decreases in size, the top navigation disappears and a *mobile friendly* slide out navigation becomes available (see Example 3 Gif animation or <a href="http://lucaslouca.github.io/pinterest-layout/example-3/" target="_blank">Demo Example 3</a>).
 
 | Example 2 |
 |--------------|
@@ -31,7 +34,7 @@ Include a simple div to hold the mosaic:
 |--------------|
 | <img src="https://cloud.githubusercontent.com/assets/10542894/9070196/63ce26ec-3aee-11e5-86e6-50d13e2d9027.gif" width="450"/> |
 
-### How it works
+### How Mosaic works
 The images are positioned dynamically by iterating through them and placing them at the bottom of whichever column has the shortest height at the moment. The column's height is then increased by the image's height (and some margins).
 
 
