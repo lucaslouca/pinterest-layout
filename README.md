@@ -35,19 +35,19 @@ Include a simple div to hold your datepicker:
 The images are positioned dynamically by iterating through them and placing them at the bottom of whichever column has the shortest height at the moment. The column's height is then increased by the image's height (and some margins).
 
 
-### How to use
-Include the neccesary Stylesheet and JavaScript file:
+### How to use Mosaic
+Since Mosaic is purely JavaScript based, you only need to include the `mosaic.js` file:
+
 ```html
-<link rel="stylesheet" type="text/css" href="styles.css" media="screen">
 <script type="text/javascript" src="mosaic.js"></script>
 ```
 
-Include a simple div to hold your the mosaic:
+Include a simple div to hold the mosaic:
 ```html
 <div id="mosaic-container"></div>
 ```
 
-Initialise Mosaic:
+Initialise Mosaic with an array of image paths:
 ```javascript
 <script>
   var mosaic = new JSMosaic('mosaic-container',['images/1.jpg','images/2.jpg','images/3.jpg','images/4.jpg','images/5.jpg','images/6.jpg', 'images/7.jpg','images/8.jpg','images/9.jpg','images/10.jpg','images/11.jpg','images/12.jpg']);
