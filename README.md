@@ -24,7 +24,7 @@ Include a simple div to hold the mosaic:
 ## Example 2 & 3: JavaScript
 Example 2 & 3 implement a similar Pinterest layout as Example 1, but instead of using a pure CSS solution, they make use of pure JavaScript (except for the header and navigation controls). jQuery is **not** required.
 
-Example 3 also includes a different header and provides a responsive navigation. That is, when the view port decreases in size, the top navigation disappears and a *mobile friendly* slide out navigation becomes available (see Example 3 Gif animation or <a href="http://lucaslouca.github.io/pinterest-layout/example-3/" target="_blank">Demo Example 3</a>).
+Example 3 also includes a different header and provides a responsive navigation. That is, when the view port decreases in size, the top navigation disappears and a *mobile friendly* slide out navigation becomes available (see the Example 3 illustration or test it using the available <a href="http://lucaslouca.github.io/pinterest-layout/example-3/" target="_blank">Demo Example 3</a>).
 
 | Example 2 |
 |--------------|
