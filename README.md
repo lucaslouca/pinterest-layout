@@ -1,6 +1,6 @@
 # Pinterest layout
 
-**11This coding-challenge was part of the interview process with Stylight (Munich, Germany) for a software engineer (frontend) role. Time frame was about 2 days.**
+**This coding-challenge was part of the interview process with Stylight (Munich, Germany) for a software engineer (frontend) role. Time frame was about 2 days.**
 
 ## Problem Statement
 The problem statement can be found at [here](https://github.com/lucaslouca/pinterest-layout/blob/master/problem-statement.pdf).
