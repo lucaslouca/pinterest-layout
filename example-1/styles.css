@@ -47,6 +47,8 @@ header h1 {
 #mosaic-container{
 	column-width: 150px;
 	column-gap: 15px;
+	-moz-column-width: 150px;
+	-moz-column-gap: 15px;
 	width: 90%;
 	max-width: 1000px;
 	margin: 50px auto;
