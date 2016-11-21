@@ -1,6 +1,9 @@
 **This coding-challenge was part of the interview process with Stylight (Munich, Germany) for a software engineer (frontend) role. Time frame was about 2 days.**
 
-# Pinterest layout
+## Problem Statement
+The problem statement can be found at (https://github.com/lucaslouca/pinterest-layout/blob/master/problem-statement.pdf)[https://github.com/lucaslouca/pinterest-layout/blob/master/problem-statement.pdf]
+
+## Pinterest layout
 Examples illustrating a <a href="https://www.pinterest.com" target="_blank">Pinterest</a> like layout.
 
 ## Example 1: CSS Only
