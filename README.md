@@ -1,3 +1,5 @@
+# Pinterest layout
+
 **This coding-challenge was part of the interview process with Stylight (Munich, Germany) for a software engineer (frontend) role. Time frame was about 2 days.**
 
 ## Problem Statement
